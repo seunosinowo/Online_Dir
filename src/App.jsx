@@ -6,6 +6,8 @@ import Provide from './components/Provide'
 import Services from './components/Services'
 import View from './components/View'
 import Clients from './components/Clients'
+import Arrow from './components/Arrow'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Services/>
       <View/>
       <Clients/>
+      <Arrow/>
+      <Contact/>
     </div>
   )
 }

@@ -7,11 +7,11 @@ import { Quote } from 'lucide-react'
 const Clients = () => {
   return (
     <div className='flex flex-col mt-52'>
-      <div className='flex flex-row w-full justify-center mb-16'>
+      <div className='flex flex-row w-full justify-center mb-9'>
         <h1 className='font-bold uppercase lg:text-4xl text-3xl'>What out Clients say</h1>
       </div>
 
-      <div className='flex flex-col w-full md:flex-row p-14 h-[400px]'>
+      <div className='flex flex-col w-full md:flex-row p-14 h-[400px] lg:space-x-7 space-y-5'>
        
 
         <div className='shadow-2xl lg:w-1/2 w-full'>
