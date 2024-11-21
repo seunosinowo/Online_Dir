@@ -8,6 +8,7 @@ import View from './components/View'
 import Clients from './components/Clients'
 import Arrow from './components/Arrow'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Clients/>
       <Arrow/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
